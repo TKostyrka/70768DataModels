@@ -27,7 +27,7 @@ INNER JOIN	[dbo].[DimProductSubcategory]	AS s ON p.[ProductSubcategoryKey]	= s.[
 INNER JOIN	[dbo].[DimProductCategory]		AS c ON s.[ProductCategoryKey]		= c.[ProductCategoryKey]
 GO
 
---	1. dodaæ do DSV, ustawiæ klucz
---	2. dodaæ wymiar (ustawiæ nazwê od razu), w atrybutach dodaæ wszystkie ID oraz Klucze
---	3. dodaæ hierarchiê kategorii + atribute relationship (na kluczach)
---	4. na atrybutach kluczy oraz ID podmieniæ wyœwietlane nazwy
+--		1. dodaæ do DSV, ustawiæ klucz
+--		2. dodaæ wymiar (ustawiæ nazwê od razu), w atrybutach dodaæ wszystkie ID oraz Klucze
+--		3. dodaæ hierarchiê kategorii + atribute relationship (na kluczach)
+--		4. na atrybutach kluczy oraz ID podmieniæ wyœwietlane nazwy

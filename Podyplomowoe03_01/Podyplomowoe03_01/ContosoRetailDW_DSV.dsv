@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5412" scrolltop="406" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="29686" y="18256" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="49" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5589" scrolltop="1218" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="28284" y="18256" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -301,7 +301,7 @@
                     <point x="16154" y="5428" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimProduct" left="20317" top="9239" logicalid="47" controlid="25" masterid="0" hint1="0" hint2="0" width="5674" height="5705" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimProduct" left="24198" top="7328" logicalid="47" controlid="25" masterid="0" hint1="0" hint2="0" width="5674" height="5705" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c00002a16000049160000" />
                   </control>
@@ -312,12 +312,23 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCurrency" left="24741" top="13918" logicalid="48" controlid="26" masterid="0" hint1="0" hint2="0" width="3910" height="2676" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000460f0000740a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimCurrency" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>5412</DiagramViewPortLeft>
-            <DiagramViewPortTop>406</DiagramViewPortTop>
+            <DiagramViewPortLeft>5589</DiagramViewPortLeft>
+            <DiagramViewPortTop>1218</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>-53</DiagramBoundingTop>
             <DiagramZoom>90</DiagramZoom>
@@ -1023,7 +1034,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="olap_vDimProduct" msprop:design-time-name="75f181ae-4627-4490-aeef-402a22727039" msprop:DbTableName="vDimProduct" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:TableType="View">
+            <xs:element name="olap_vDimProduct" msprop:design-time-name="75f181ae-4627-4490-aeef-402a22727039" msprop:FriendlyName="vDimProduct" msprop:DbSchemaName="olap" msprop:DbTableName="vDimProduct" msprop:TableType="View">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ProductKey" msprop:design-time-name="f8afa2e3-872c-43c3-90fa-042417a0601c" msprop:DbColumnName="ProductKey" msprop:FriendlyName="ProductKey" type="xs:int" />
@@ -1130,6 +1141,34 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="olap_vDimCurrency" msprop:design-time-name="3fb4afdc-b183-4038-ae2c-fc39be025487" msprop:FriendlyName="vDimCurrency" msprop:DbSchemaName="olap" msprop:DbTableName="vDimCurrency" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CurrencyKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="f9d31d42-819d-44d5-aab5-9835a153366a" msprop:DbColumnName="CurrencyKey" msprop:FriendlyName="CurrencyKey" type="xs:int" />
+                  <xs:element name="CurrencyLabel" msprop:design-time-name="88e34b8c-b7c8-4960-82b1-7ef410a99ea6" msprop:DbColumnName="CurrencyLabel" msprop:FriendlyName="CurrencyLabel">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CurrencyName" msprop:design-time-name="565f68e9-c6d1-4552-852b-ca2e4b55b710" msprop:DbColumnName="CurrencyName" msprop:FriendlyName="CurrencyName">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CurrencyDescription" msdata:ReadOnly="true" msprop:design-time-name="53643583-496f-424a-b029-5db3692f8e77" msprop:DbColumnName="CurrencyDescription" msprop:FriendlyName="CurrencyDescription">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="73" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -1167,6 +1206,10 @@
         <xs:unique name="olap_vDimProduct_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
           <xs:selector xpath=".//olap_vDimProduct" />
           <xs:field xpath="ProductKey" />
+        </xs:unique>
+        <xs:unique name="olap_vDimCurrency_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//olap_vDimCurrency" />
+          <xs:field xpath="CurrencyKey" />
         </xs:unique>
       </xs:element>
       <xs:annotation>
