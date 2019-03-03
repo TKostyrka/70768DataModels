@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Podyplomowoe03_01", "Podyplomowoe03_01\Podyplomowoe03_01.dwproj", "{ED2428E7-E583-49E7-811E-5E80CBB3509C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED2428E7-E583-49E7-811E-5E80CBB3509C}.Development|Default.ActiveCfg = Development
+		{ED2428E7-E583-49E7-811E-5E80CBB3509C}.Development|Default.Build.0 = Development
+		{ED2428E7-E583-49E7-811E-5E80CBB3509C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48065DB5-8EAD-40F7-9A83-7E1E313B99A7}
+	EndGlobalSection
+EndGlobal
